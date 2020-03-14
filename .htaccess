@@ -1,4 +1,12 @@
-# 1 Month for most static assets
-<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
-Header set Cache-Control "max-age=2419200, public"
-</filesMatch>
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType assets/img/png "access plus 1 year"
+  ExpiresByType assets/thumbnail/png "access plus 1 year"
+  ExpiresByType highway_to_hell/assets/img/png "access plus 1 year"
+  ExpiresByType highway_to_hell/assets/img/fuel/png "access plus 1 year"
+  ExpiresByType highway_to_hell/assets/img/hp/png "access plus 1 year"
+  ExpiresByType highway_to_hell/assets/img/player/png "access plus 1 year"
+  ExpiresByType highway_to_hell/assets/lib/js "access plus 1 year"
+  ExpiresByType highway_to_hell/assets/js "access plus 1 year"
+  ExpiresByType css "access plus 1 month"
+</IfModule>
