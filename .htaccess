@@ -6,7 +6,7 @@
   ExpiresByType highway_to_hell/assets/img/fuel/png "access plus 1 year"
   ExpiresByType highway_to_hell/assets/img/hp/png "access plus 1 year"
   ExpiresByType highway_to_hell/assets/img/player/png "access plus 1 year"
-  ExpiresByType highway_to_hell/assets/lib/js "access plus 1 year"
-  ExpiresByType highway_to_hell/assets/js "access plus 1 year"
+  ExpiresByType highway_to_hell/assets/lib/js "access plus 1 month"
+  ExpiresByType highway_to_hell/assets/js "access plus 1 month"
   ExpiresByType css "access plus 1 month"
 </IfModule>
