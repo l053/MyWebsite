@@ -101,6 +101,7 @@ img:hover {
     border-bottom-style: solid;
 }
 .howto {
+    background: black;
     float: right;
     border: 2px;
     padding: 10px;
