@@ -1,3 +1,7 @@
+
+let hei = $(window).height();
+let wid = $(window).width();
+console.log(hei + " " + wid);
 //Canvas Size
 let maxH = 900;
 let maxW = 600;
