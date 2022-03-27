@@ -10,7 +10,6 @@ body {
 
 /* Header/logo Title */
 .header {
-  padding: 80px;
   text-align: center;
   background: linear-gradient(25deg, #1abc9c, #9c1abc);
   color: white;
