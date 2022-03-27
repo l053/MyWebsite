@@ -236,7 +236,8 @@ function setup() {
     difficulty.position(
         (maxW / 2) -(difficulty.width / 2), buttonY * 8.7);
     nameTextfield.position(
-        (width / 2) -inputSize, buttonY * 11);
+        (maxW / 2) -(difficulty.width / 2), buttonY * 8.7);
+        //(width / 2) -inputSize, buttonY * 11);
     
     difficulty.hide();
     nameTextfield.hide();
